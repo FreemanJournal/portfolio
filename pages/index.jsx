@@ -1,17 +1,21 @@
 import Head from 'next/head'
-import { HeroSection, Projects } from '../components'
+import { ToastContainer } from 'react-toastify';
+import { Contact, HeroSection, Projects } from '../components'
 import {getProjects} from "../services"
+import 'react-toastify/dist/ReactToastify.css';
 const Home = ({projects}) => {
-  console.log('projects',projects);
   return (
-    <div className="">
+    <div className="relative">
+    
       <Head>
         <title>Md Ishaq</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <ToastContainer/>
 
       <HeroSection />
       <Projects projects={projects}/>
+      <Contact/>
     </div>
   )
 }

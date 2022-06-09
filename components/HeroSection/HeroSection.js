@@ -8,8 +8,8 @@ export default function HeroSection() {
                     <h1 className="text-3xl text-emerald-400 font-extrabold sm:text-5xl">
                         Md Ishaq
                     </h1>
-                    <h1 className="text-2xl text-slate-400 mt-5 font-extrabold">
-                        I  can assist you to develop a website that deliver value to your customer
+                    <h1 className="text-xl text-slate-400 mt-5 font-extrabold">
+                        I  can assist you to develop a website that will deliver value to your customer
                     </h1>
 
                     <p className="mt-4 sm:leading-relaxed sm:text-xl">
@@ -17,7 +17,7 @@ export default function HeroSection() {
                     </p>
 
                     <div className="flex flex-wrap  gap-4 mt-8">
-                        <a className="relative inline-block text-sm font-medium text-emerald-600 group active:text-emerald-500 focus:outline-none focus:ring" href="/download">
+                        <a className="relative inline-block text-sm font-medium text-emerald-600 group active:text-emerald-500 focus:outline-none focus:ring" href="#contact">
                             <span className="absolute inset-0 transition-transform translate-x-0.5 translate-y-0.5 bg-emerald-600 group-hover:translate-y-0 group-hover:translate-x-0"></span>
 
                             <span className="relative block px-8 py-3 bg-white border border-current">

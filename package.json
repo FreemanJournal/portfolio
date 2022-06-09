@@ -6,16 +6,21 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
+    "@tailwindcss/forms": "^0.5.2",
     "axios": "^0.27.2",
-    "js-file-download": "^0.4.12",
-    "next": "latest",
-    "react": "18.1.0",
-    "react-dom": "18.1.0",
-    "react-use-downloader": "^1.1.7",
+    "emailjs": "^4.0.0",
     "graphql": "^16.5.0",
     "graphql-request": "^4.3.0",
     "html-react-parser": "^1.4.14",
-    "moment": "^2.29.3"
+    "js-file-download": "^0.4.12",
+    "moment": "^2.29.3",
+    "next": "latest",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-hook-form": "^7.31.3",
+    "react-toastify": "^9.0.4",
+    "react-use-downloader": "^1.1.7"
   },
   "devDependencies": {
     "@types/node": "17.0.35",

@@ -10,10 +10,13 @@ export const getProjects = async () => {
                 node {
                     title
                     description {
-                    html
+                        html
+                        text
+                        raw
+                        markdown
                     }
                     projectPhoto {
-                    url
+                        url
                     }
                 }
             }
@@ -21,6 +24,6 @@ export const getProjects = async () => {
         }
     `
 
-    const results = await request(graphqlAPI,query)
+    const results = await request(graphqlAPI, query)
     return results.projectsConnection.edges;
 }
