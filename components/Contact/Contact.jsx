@@ -23,15 +23,16 @@ export default function Contact() {
     return (
         <section className="text-slate-600 bg-gray-50" id='contact'>
             <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
-                <div className="max-w-lg mx-auto text-center">
+                <div className="max-w-lg mx-auto text-center ">
                     <h2 className="text-3xl font-bold sm:text-4xl">Contact Me</h2>
-
+                    <hr />
                     <p className="mt-4 text-slate-600 bold">
+                   
                         Feel free to contact me with any inquiry
                     </p>
                 </div>
 
-                <section className="bg-gray-50 mt-10">
+                <section className="bg-gray-50">
                     <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
                         <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
                             <div className="lg:py-12 lg:col-span-2">

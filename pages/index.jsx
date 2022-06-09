@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { ToastContainer } from 'react-toastify';
-import { Contact, HeroSection, Projects } from '../components'
+import { Contact, Footer, HeroSection, Projects } from '../components'
 import {getProjects} from "../services"
 import 'react-toastify/dist/ReactToastify.css';
 const Home = ({projects}) => {
@@ -16,6 +16,7 @@ const Home = ({projects}) => {
       <HeroSection />
       <Projects projects={projects}/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }

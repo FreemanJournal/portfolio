@@ -6,15 +6,16 @@ export default function Projects({ projects }) {
     return (
         <section className="text-slate-600 bg-gray-50">
             <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
-                <div className="max-w-lg mx-auto text-center">
+                <div className="max-w-lg mx-auto text-center ">
                     <h2 className="text-3xl font-bold sm:text-4xl">Projects</h2>
-
+                    <hr />
                     <p className="mt-4 text-slate-600 bold">
+                       
                         Here some projects that I have done recently
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
+                <div className="grid grid-cols-1 gap-8 mt-16 md:grid-cols-2 lg:grid-cols-3">
                     {
                         projects?.map((project, index) => {
                             const {title,description,projectPhoto} = project.node
