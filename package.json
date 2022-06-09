@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "js-file-download": "^0.4.12",
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0"
