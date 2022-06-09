@@ -1,9 +1,14 @@
+import Link from "next/link";
+
 export default function HeroSection() {
   
     return (
         <section className="bg-gray-50">
+            <h3 className="px-10 md:px-36 uppercase pt-5 text-3xl"> <Link href="/">Md Ishaq</Link> </h3>
             <div className=" px-4 py-32 mx-auto lg:h-screen lg:items-center lg:flex">
+                
                 <div className=" mx-auto px-10 md:px-32">
+                    
                     <p className='text-slate-600 font-bold'>Hi, my name is</p>
                     <h1 className="text-3xl text-emerald-400 font-extrabold sm:text-5xl">
                         Md Ishaq
