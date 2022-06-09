@@ -1,6 +1,5 @@
-import React from 'react'
-import fileDownload from 'js-file-download';
 export default function HeroSection() {
+  
     return (
         <section className="bg-gray-50">
             <div className=" px-4 py-32 mx-auto lg:h-screen lg:items-center lg:flex">
@@ -18,17 +17,17 @@ export default function HeroSection() {
                     </p>
 
                     <div className="flex flex-wrap  gap-4 mt-8">
-                        <a class="relative inline-block text-sm font-medium text-emerald-600 group active:text-emerald-500 focus:outline-none focus:ring" href="/download">
-                            <span class="absolute inset-0 transition-transform translate-x-0.5 translate-y-0.5 bg-emerald-600 group-hover:translate-y-0 group-hover:translate-x-0"></span>
+                        <a className="relative inline-block text-sm font-medium text-emerald-600 group active:text-emerald-500 focus:outline-none focus:ring" href="/download">
+                            <span className="absolute inset-0 transition-transform translate-x-0.5 translate-y-0.5 bg-emerald-600 group-hover:translate-y-0 group-hover:translate-x-0"></span>
 
-                            <span class="relative block px-8 py-3 bg-white border border-current">
+                            <span className="relative block px-8 py-3 bg-white border border-current">
                                 Contact me
                             </span>
                         </a>
-                        <a class="relative inline-block text-sm font-medium text-emerald-600 group active:text-emerald-500 focus:outline-none focus:ring" href="/download">
-                            <span class="absolute inset-0 transition-transform translate-x-0.5 translate-y-0.5 bg-emerald-600 group-hover:translate-y-0 group-hover:translate-x-0"></span>
+                        <a className="relative inline-block text-sm font-medium text-emerald-600 group active:text-emerald-500 focus:outline-none focus:ring" href="https://drive.google.com/file/d/1-aEzJUoMj7LruZbY-wH9l0WUYfjyqIvp" target="_blank" rel="noreferrer">
+                            <span className="absolute inset-0 transition-transform translate-x-0.5 translate-y-0.5 bg-emerald-600 group-hover:translate-y-0 group-hover:translate-x-0"></span>
 
-                            <span class="relative block px-8 py-3 bg-white border border-current">
+                            <span className="relative block px-8 py-3 bg-white border border-current">
                             My Resume
                             </span>
                         </a>
