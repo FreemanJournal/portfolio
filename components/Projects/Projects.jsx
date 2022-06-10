@@ -18,7 +18,7 @@ export default function Projects({ projects }) {
                     {
                         projects?.map((project, index) => {
 
-                            const { id, title, description, projectPhoto,projectSlug } = project.node
+                            const { id, title, description, projectPhoto, projectSlug } = project.node
                             return (
                                 <div
                                     className="block relative pb-10 overflow-hidden border  rounded-lg shadow-xl"
@@ -30,14 +30,12 @@ export default function Projects({ projects }) {
                                         src={projectPhoto.url}
                                         alt=""
                                     />
-
                                     <div className="p-6">
                                         <h5 className="text-xl font-bold">
                                             {title}
                                         </h5>
 
                                         <p className="mt-2 text-sm text-gray-500">
-                                            {/* {parse(description.html)} */}
                                             {description.markdown}
                                         </p>
 

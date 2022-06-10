@@ -31,9 +31,9 @@ export default function Navigation() {
   return (
     <Popover className="relative bg-white z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+        <div className="flex justify-between items-center border-b-2 border-gray-100 py-5 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-          <h3 className=" uppercase pt-5 text-3xl"> <Link href="/">Md Ishaq</Link> </h3>
+          <h3 className=" uppercase  text-3xl"> <Link href="/">Md Ishaq</Link> </h3>
 
           </div>
           <div className="-mr-2 -my-2 md:hidden">
