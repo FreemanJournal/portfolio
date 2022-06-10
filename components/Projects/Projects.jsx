@@ -10,7 +10,6 @@ export default function Projects({ projects }) {
                     <h2 className="text-3xl font-bold sm:text-4xl">Projects</h2>
                     <hr />
                     <p className="mt-4 text-slate-600 bold">
-
                         Here some projects that I have done recently
                     </p>
                 </div>
@@ -38,7 +37,8 @@ export default function Projects({ projects }) {
                                         </h5>
 
                                         <p className="mt-2 text-sm text-gray-500">
-                                            {parse(description.html)}
+                                            {/* {parse(description.html)} */}
+                                            {description.markdown}
                                         </p>
 
                                         <button

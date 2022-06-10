@@ -1,8 +1,8 @@
-import Head from 'next/head'
+import Head from 'next/head';
 import { ToastContainer } from 'react-toastify';
-import { AboutMe, Contact, Footer, HeroSection, Layout, Navigation, Projects } from '../components'
-import { getProjects } from "../services"
 import 'react-toastify/dist/ReactToastify.css';
+import { AboutMe, Contact, Footer, HeroSection, Navigation, Projects } from '../components';
+import { getProjects } from "../services";
 const Home = ({ projects }) => {
   return (
     <div className="relative">

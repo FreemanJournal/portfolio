@@ -1,7 +1,7 @@
-import Head from 'next/head';
 import parse from 'html-react-parser';
-import { getProjectDetails } from '../../services';
+import Head from 'next/head';
 import { Footer, Navigation } from '../../components';
+import { getProjectDetails } from '../../services';
 export default function ProjectDetails({ project }) {
 
 
