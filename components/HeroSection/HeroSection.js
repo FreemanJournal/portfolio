@@ -16,9 +16,7 @@ export default function HeroSection() {
                         I  can assist you to develop a website that will deliver value to your customer
                     </h1>
 
-                    <p className="mt-4 sm:leading-relaxed sm:text-xl">
-                        I am a front-end web developer. I work on MERN stack based applications. My major focus is building secure, sustainable, simple and optimized applications for my respective client. Using the smallest amount of data and giving the best user experience is one of the key challenges of my job. I am very passionate about exploring different tools and technology to improve my development quality.
-                    </p>
+                   
 
                     <div className="flex flex-wrap  gap-4 mt-8">
                         <a className="relative inline-block text-sm font-medium text-emerald-600 group active:text-emerald-500 focus:outline-none focus:ring" href="#contact">
