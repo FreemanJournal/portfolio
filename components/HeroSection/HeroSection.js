@@ -4,7 +4,6 @@ export default function HeroSection() {
   
     return (
         <section className="bg-gray-50">
-            <h3 className="px-10 md:px-36 uppercase pt-5 text-3xl"> <Link href="/">Md Ishaq</Link> </h3>
             <div className=" px-4 py-32 mx-auto lg:h-screen lg:items-center lg:flex">
                 
                 <div className=" mx-auto px-10 md:px-32">

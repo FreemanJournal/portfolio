@@ -48,13 +48,13 @@ export default function Contact() {
                             <div className="p-8 bg-white rounded-lg shadow-lg lg:p-12 lg:col-span-3">
                                 <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
                                     <div>
-                                        <label className="sr-only" for="name">Name</label>
+                                        <label className="sr-only" htmlFor="name">Name</label>
                                         <input className="w-full p-3 text-sm border-gray-200 rounded-lg" placeholder="Name" type="text" id="name" required {...register("name")} />
                                     </div>
 
                                     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                                         <div>
-                                            <label className="sr-only" for="email">Email</label>
+                                            <label className="sr-only" htmlFor="email">Email</label>
                                             <input
                                                 className="w-full p-3 text-sm border-gray-200 rounded-lg"
                                                 placeholder="Email address"
@@ -66,7 +66,7 @@ export default function Contact() {
                                         </div>
 
                                         <div>
-                                            <label className="sr-only" for="phone">Phone</label>
+                                            <label className="sr-only" htmlFor="phone">Phone</label>
                                             <input
                                                 className="w-full p-3 text-sm border-gray-200 rounded-lg"
                                                 placeholder="Phone Number (optional)"
@@ -80,7 +80,7 @@ export default function Contact() {
 
 
                                     <div>
-                                        <label className="sr-only" for="message">Message</label>
+                                        <label className="sr-only" htmlFor="message">Message</label>
                                         <textarea
                                             className="w-full p-3 text-sm border-gray-200 rounded-lg"
                                             placeholder="Message"

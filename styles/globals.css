@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
+html {
     scroll-behavior: smooth;
+}
+
+.no-spinners {
+    -moz-appearance: textfield;
+}
+
+.no-spinners::-webkit-outer-spin-button,
+.no-spinners::-webkit-inner-spin-button {
+    margin: 0;
+    -webkit-appearance: none;
 }
