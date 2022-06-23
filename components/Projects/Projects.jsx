@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import React from 'react'
 import parse from 'html-react-parser';
-
+import Image from 'next/image';
+import styles from './Projects.module.css'
 export default function Projects({ projects }) {
     return (
         <section className="text-slate-600 bg-gray-50">
@@ -21,15 +22,14 @@ export default function Projects({ projects }) {
                             const { id, title, description, projectPhoto, projectSlug } = project.node
                             return (
                                 <div
-                                    className="block relative pb-10 overflow-hidden border  rounded-lg shadow-xl"
+                                    className="block relative pb-10  border  rounded-lg shadow-xl"
                                     key={index}
 
                                 >
-                                    <img
-                                        className="object-cover w-full h-56"
-                                        src={projectPhoto.url}
-                                        alt=""
-                                    />
+                                    <div className="h-52 w-full  relative flex items-center justify-center ">
+                                        <div className={`${styles.projectImg} mx-auto`} style={{ backgroundImage:`url(${projectPhoto.url})` }}>
+                                        </div>
+                                    </div>
                                     <div className="p-6">
                                         <h5 className="text-xl font-bold">
                                             {title}

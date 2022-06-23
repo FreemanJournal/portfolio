@@ -1,0 +1,17 @@
+.projectImg{
+
+    height: inherit;
+    width: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    transition: all 1500ms ease-in-out;
+    cursor: pointer;
+
+}
+.projectImg:hover{
+
+   
+    background-position: bottom;
+
+}
